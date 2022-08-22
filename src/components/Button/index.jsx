@@ -1,8 +1,8 @@
 import { Button } from "./style";
 
-const LoadMore = ({ children, onClick }) => {
+const LoadMore = ({ children, onClick, disabled }) => {
   return (
-    <Button type="button" onClick={onClick}>
+    <Button type="button" onClick={onClick} disabled={disabled}>
       {children}
     </Button>
   )

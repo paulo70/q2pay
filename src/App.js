@@ -1,9 +1,19 @@
 import Container from './components/Wrapper'
+import Header from './components/Header';
+import Movies from './Pages/Movies';
+
+import SearchContextProvider from './contexts/Search';
+
 function App() {
   return (
-    <Container>
-      <h1>testando</h1>
-    </Container>
+    <>
+      <SearchContextProvider>
+        <Header />
+        <Container>
+          <Movies />
+        </Container>
+      </SearchContextProvider>
+    </>
   );
 }
 

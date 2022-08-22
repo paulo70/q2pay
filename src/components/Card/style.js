@@ -7,9 +7,32 @@ export const CardWrapper = styled.div`
   
   padding: 0 0 32px;
   margin: 48px auto 0;
-  width: 300px;
+  width: 250px;
 `
+export const CardImage = styled.div`
+  width: 100%;
+`
+
 export const CardBody = styled.div`
-  padding-right: 32px;
-  padding-left: 32px;
+
+  &{
+    img{
+      width: 100%;
+      object-fit: contain;
+    }
+
+    p{
+      padding: 15px 10px 0;
+      
+      color:#6C6667;
+      font-weight: bold;
+      line-height: 1.5;
+    }
+
+    p + p {
+      padding-top: 8px;  
+    }
+
+  }
+
 `

@@ -21,4 +21,8 @@ export const Search = styled.input`
   &::placeholder {
     color: #A39C9D;
   }
+
+  @media (max-width: 768px) {
+    margin-right: 10px;
+}
 `

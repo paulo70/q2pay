@@ -1,9 +1,9 @@
 import { CardWrapper, CardBody } from "./style"
-const Card = () => {
+const Card = ({ children }) => {
   return (
     <CardWrapper>
       <CardBody>
-        <h1>oi</h1>
+        {children}
       </CardBody>
     </CardWrapper>
   )
