@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/static/js/main.322a7704.js",
-    "static/media/Quero2Pay_logo.svg": "/static/media/Quero2Pay_logo.d5d5ee9ff20ec59c3880a28b6642dba6.svg",
-    "index.html": "/index.html",
-    "main.322a7704.js.map": "/static/js/main.322a7704.js.map"
+    "main.js": "/q2pay/static/js/main.b3ef3747.js",
+    "static/media/Quero2Pay_logo.svg": "/q2pay/static/media/Quero2Pay_logo.d5d5ee9ff20ec59c3880a28b6642dba6.svg",
+    "index.html": "/q2pay/index.html",
+    "main.b3ef3747.js.map": "/q2pay/static/js/main.b3ef3747.js.map"
   },
   "entrypoints": [
-    "static/js/main.322a7704.js"
+    "static/js/main.b3ef3747.js"
   ]
 }
